@@ -10,6 +10,8 @@
 
 *Stop watching your AI agent code itself into a corner. Give it discipline.*
 
+<img src="assets/demo.svg" width="100%" alt="Agentic Kernel Demo">
+
 [Quickstart](#-quickstart) •
 [Philosophy](#-core-philosophy) •
 [Architecture](#-architecture) •
