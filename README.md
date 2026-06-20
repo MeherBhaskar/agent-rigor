@@ -11,9 +11,9 @@
 *Stop watching your AI agent code itself into a corner. Give it discipline.*
 
 [Quickstart](#-quickstart) •
+[Philosophy](#-core-philosophy) •
 [Architecture](#-architecture) •
-[Supported Agents](#-supported-agents) •
-[Contributing](#-contributing)
+[Supported Agents](#-supported-agents)
 
 </div>
 
@@ -28,7 +28,17 @@ Most AI coding agents fail not because they lack intelligence, but because they 
 - ❌ Forget what they learned between sessions (context amnesia).
 - ❌ Suffer from "context rot" by loading too many instructions at once.
 
-**Agentic Kernel solves this.** It provides a structured, multi-layer operating system—a set of mandatory protocols, verification gates, and anti-rationalization safeguards that force empirical discipline at every step.
+**Agentic Kernel solves this.** It provides a structured, multi-layer operating system: a set of mandatory protocols, verification gates, and anti-rationalization safeguards that force empirical discipline at every step.
+
+---
+
+## 🛡️ Core Philosophy
+
+1. **Actionable Protocols**: Every instruction is a verifiable step with exit criteria, not an essay.
+2. **Empirical Sovereignty**: Claims require evidence. "Seems right" is never sufficient.
+3. **Atomic State Transitions**: The codebase moves between known-good states. Broken states are never committed.
+4. **Anti-Rationalization**: Every skill actively anticipates and rebuts the excuses agents use to skip discipline.
+5. **Progressive Disclosure**: The agent reads only the files it needs for the current phase, saving tokens and preventing instruction neglect.
 
 ---
 
@@ -38,9 +48,9 @@ The system is organized into a robust 3-tier hierarchy using **Progressive Discl
 
 ### The 3-Tier Context Hierarchy
 
-1. **L1: Apex Kernel (`SYSTEM_CORE.md`)** — Always-on routing and non-negotiable laws.
-2. **L2: Phase Directors (`00_PHASE_DIRECTOR.md`)** — Just-in-time orchestration loaded only when entering a phase.
-3. **L3: Skill Protocols (`skills/*.md`)** — Deep execution guidelines loaded *only* when requested by the Director.
+1. **L1: Apex Kernel (`SYSTEM_CORE.md`)**: Always-on routing and non-negotiable laws.
+2. **L2: Phase Directors (`00_PHASE_DIRECTOR.md`)**: Just-in-time orchestration loaded only when entering a phase.
+3. **L3: Skill Protocols (`skills/*.md`)**: Deep execution guidelines loaded *only* when requested by the Director.
 
 ### The Operational Loop
 
@@ -113,16 +123,6 @@ Agentic Kernel is pure markdown and **platform-agnostic**. It works natively wit
 *See the [`examples/`](./examples) folder for ready-to-use configuration templates.*
 
 </div>
-
----
-
-## 🛡️ Core Philosophy
-
-1. **Actionable Protocols** — Every instruction is a verifiable step with exit criteria, not an essay.
-2. **Empirical Sovereignty** — Claims require evidence. "Seems right" is never sufficient.
-3. **Atomic State Transitions** — The codebase moves between known-good states. Broken states are never committed.
-4. **Anti-Rationalization** — Every skill actively anticipates and rebuts the excuses agents use to skip discipline.
-5. **Progressive Disclosure** — The agent reads only the files it needs for the current phase, saving tokens and preventing instruction neglect.
 
 ---
 
