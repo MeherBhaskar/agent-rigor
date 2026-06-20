@@ -1,6 +1,6 @@
 <div align="center">
   
-# 🧠 Agentic Kernel
+# 🧠 Agent Rigor
 
 **A self-sufficient operating system for autonomous coding agents.**
 
@@ -10,7 +10,7 @@
 
 *Stop watching your AI agent code itself into a corner. Give it discipline.*
 
-<img src="assets/demo.svg" width="100%" alt="Agentic Kernel Demo">
+<img src="assets/demo.svg" width="100%" alt="Agent Rigor Demo">
 
 [Quickstart](#-quickstart) •
 [Philosophy](#-core-philosophy) •
@@ -21,7 +21,7 @@
 
 ---
 
-## 🚀 Why Agentic Kernel?
+## 🚀 Why Agent Rigor?
 
 Most AI coding agents fail not because they lack intelligence, but because they lack **discipline**. When left to their own devices, they:
 - ❌ Skip planning and jump straight to implementation.
@@ -30,7 +30,7 @@ Most AI coding agents fail not because they lack intelligence, but because they 
 - ❌ Forget what they learned between sessions (context amnesia).
 - ❌ Suffer from "context rot" by loading too many instructions at once.
 
-**Agentic Kernel solves this.** It provides a structured, multi-layer operating system: a set of mandatory protocols, verification gates, and anti-rationalization safeguards that force empirical discipline at every step.
+**Agent Rigor solves this.** It provides a structured, multi-layer operating system: a set of mandatory protocols, verification gates, and anti-rationalization safeguards that force empirical discipline at every step.
 
 ---
 
@@ -89,14 +89,14 @@ graph TD
 
 ## ⚡ Quickstart
 
-Get Agentic Kernel working in your project in under 2 minutes.
+Get Agent Rigor working in your project in under 2 minutes.
 
 ### 1. Bootstrap Your Project
 
 Run the installation script in your project root:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/MeherBhaskar/agentic-kernel/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/MeherBhaskar/agent-rigor/main/install.sh | bash
 ```
 *(Alternatively, clone this repo into an `.agents/` directory).*
 
@@ -110,7 +110,7 @@ The agent will automatically read the Phase 1 Director, create a `PLAN.md`, and 
 
 ## 🤖 Supported Agents
 
-Agentic Kernel is pure markdown and **platform-agnostic**. It works natively with:
+Agent Rigor is pure markdown and **platform-agnostic**. It works natively with:
 
 <div align="center">
   

@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-Get Agentic Kernel working in your project in under 5 minutes.
+Get Agent Rigor working in your project in under 5 minutes.
 
 ---
 
@@ -11,9 +11,9 @@ Get Agentic Kernel working in your project in under 5 minutes.
 git clone <repo-url> .agents/kernel/
 
 # Option B: Copy specific files
-cp -r agentic-kernel/SYSTEM_CORE.md .agents/
-cp -r agentic-kernel/skills/ .agents/skills/
-cp -r agentic-kernel/templates/ .agents/templates/
+cp -r agent-rigor/SYSTEM_CORE.md .agents/
+cp -r agent-rigor/skills/ .agents/skills/
+cp -r agent-rigor/templates/ .agents/templates/
 ```
 
 ## Step 2: Bootstrap Your Project

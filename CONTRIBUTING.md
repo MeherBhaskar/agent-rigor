@@ -1,6 +1,6 @@
-# Contributing to Agentic Kernel
+# Contributing to Agent Rigor
 
-Thank you for your interest in improving Agentic Kernel! This framework aims to be the universal operating system for autonomous coding agents, bringing engineering discipline to AI-driven development.
+Thank you for your interest in improving Agent Rigor! This framework aims to be the universal operating system for autonomous coding agents, bringing engineering discipline to AI-driven development.
 
 ## Core Philosophy
 

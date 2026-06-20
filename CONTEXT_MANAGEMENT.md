@@ -1,6 +1,6 @@
 # Context Management & Progressive Disclosure
 
-**Objective:** Prevent "context rot" and instruction neglect by strictly controlling how much of the Agentic Kernel is loaded into the agent's working memory at any given time.
+**Objective:** Prevent "context rot" and instruction neglect by strictly controlling how much of the Agent Rigor is loaded into the agent's working memory at any given time.
 
 ---
 
@@ -8,7 +8,7 @@
 
 If an agent loads all 15+ skill files into its context window simultaneously, it will suffer from **instruction neglect**. The noise ratio becomes too high, and the agent will revert to its baseline training behaviors, ignoring the strict protocols defined in this repository.
 
-To prevent this, Agentic Kernel uses **Progressive Disclosure** — an architecture that reveals instructions only when they are actively needed.
+To prevent this, Agent Rigor uses **Progressive Disclosure** — an architecture that reveals instructions only when they are actively needed.
 
 ---
 
@@ -43,7 +43,7 @@ Your initial prompt or base instruction file should ONLY contain the contents of
 
 ### For Cursor IDE (`.mdc` files)
 
-Cursor handles progressive disclosure natively using `.mdc` file metadata. To implement Agentic Kernel in Cursor:
+Cursor handles progressive disclosure natively using `.mdc` file metadata. To implement Agent Rigor in Cursor:
 
 1. Create `.cursor/rules/00-apex.mdc`:
    - `alwaysApply: true`

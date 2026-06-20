@@ -1,4 +1,4 @@
-# Agentic Kernel — Quick Reference Card
+# Agent Rigor — Quick Reference Card
 
 A one-page operational reference for agents running the kernel.
 

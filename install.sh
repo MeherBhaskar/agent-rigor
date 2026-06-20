@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-# Agentic Kernel Installer
-# Quickly bootstrap a project with the Agentic Kernel framework
+# Agent Rigor Installer
+# Quickly bootstrap a project with the Agent Rigor framework
 
 set -e
 
@@ -10,7 +10,7 @@ BLUE='\033[0;34m'
 YELLOW='\033[1;33m'
 NC='\033[0m' # No Color
 
-echo -e "${BLUE}Initializing Agentic Kernel...${NC}"
+echo -e "${BLUE}Initializing Agent Rigor...${NC}"
 
 TARGET_DIR="${1:-.}"
 AGENT_DIR="$TARGET_DIR/.agents"
@@ -41,7 +41,7 @@ if [ ! -f "$TARGET_DIR/progress_log.md" ]; then
     cp templates/PROGRESS_LOG_TEMPLATE.md "$TARGET_DIR/progress_log.md"
 fi
 
-echo -e "${GREEN}Agentic Kernel successfully installed in $TARGET_DIR!${NC}"
+echo -e "${GREEN}Agent Rigor successfully installed in $TARGET_DIR!${NC}"
 echo -e "${YELLOW}Next steps:${NC}"
 echo "1. Integrate SYSTEM_CORE.md with your agent's system prompt or rules file."
 echo "   See QUICKSTART.md for examples (Claude Code, Cursor, Copilot, etc.)."

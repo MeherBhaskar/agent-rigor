@@ -6,7 +6,7 @@
 
 ## The Phase Router
 
-Phase 6 operates as an overlay on the entire Agentic Kernel. These skills are triggered by anomalies or meta-level requirements:
+Phase 6 operates as an overlay on the entire Agent Rigor. These skills are triggered by anomalies or meta-level requirements:
 
 1. **Stall & Doom Loop Resolution**
    - Triggered continuously during Phase 2 (Execution).
