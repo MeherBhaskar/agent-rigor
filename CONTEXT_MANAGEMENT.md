@@ -62,7 +62,7 @@ Cursor handles progressive disclosure natively using `.mdc` file metadata. To im
 
 ## The "Read-and-Drop" Discipline
 
-As an autonomous agent, you must actively manage your own context window. 
+As an AI assistant, you must actively manage your own context window. 
 - When you finish writing the `PLAN.md`, you no longer need the strategic decomposition rules in your immediate focus. 
 - When you are writing a test, you do not need the architectural graphing rules.
 

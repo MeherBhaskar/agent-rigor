@@ -41,7 +41,7 @@ For every task, route through the phase system defined there.
 Create `.cursor/rules/kernel.mdc`:
 ```markdown
 ---
-description: Core operating protocols for autonomous development
+description: Core engineering protocols for AI development
 alwaysApply: true
 ---
 Read and follow `.agents/SYSTEM_CORE.md` for all development tasks.

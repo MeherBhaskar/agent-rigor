@@ -2,7 +2,7 @@
   
 # 🧠 Agent Rigor
 
-**A self-sufficient operating system for autonomous coding agents.**
+**Strict empirical discipline for your AI coding assistant.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
@@ -30,7 +30,7 @@ Most AI coding agents fail not because they lack intelligence, but because they 
 - ❌ Forget what they learned between sessions (context amnesia).
 - ❌ Suffer from "context rot" by loading too many instructions at once.
 
-**Agent Rigor solves this.** It provides a structured, multi-layer operating system: a set of mandatory protocols, verification gates, and anti-rationalization safeguards that force empirical discipline at every step.
+**Agent Rigor solves this.** It provides a structured, multi-layer progressive disclosure framework: a set of mandatory protocols, verification gates, and anti-rationalization safeguards that force empirical discipline at every step.
 
 ---
 

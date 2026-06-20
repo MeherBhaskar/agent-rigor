@@ -1,6 +1,6 @@
 # Contributing to Agent Rigor
 
-Thank you for your interest in improving Agent Rigor! This framework aims to be the universal operating system for autonomous coding agents, bringing engineering discipline to AI-driven development.
+Thank you for your interest in improving Agent Rigor! This framework provides universal engineering discipline for AI coding assistants, bringing rigor and guardrails to AI-driven development.
 
 ## Core Philosophy
 
