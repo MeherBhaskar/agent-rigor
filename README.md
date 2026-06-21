@@ -8,9 +8,7 @@
 [![Platform Agnostic](https://img.shields.io/badge/Platform-Agnostic-orange.svg?style=for-the-badge)](#platform-agnostic)
 [![GitHub last commit](https://img.shields.io/github/last-commit/MeherBhaskar/agent-rigor?style=for-the-badge)](https://github.com/MeherBhaskar/agent-rigor/commits/main)
 
-<br>
-<h3>⭐ <a href="https://github.com/MeherBhaskar/agent-rigor">Star this repository</a> to stay updated! ⭐</h3>
-<br>
+[![GitHub stars](https://img.shields.io/github/stars/MeherBhaskar/agent-rigor?style=social)](https://github.com/MeherBhaskar/agent-rigor/stargazers)
 
 *Help your AI agent adopt software engineering best practices directly into its workflow.*
 
