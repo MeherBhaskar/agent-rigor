@@ -1,6 +1,6 @@
 <div align="center">
   
-# 🧠 Agent Rigor
+# Agent Rigor
 
 **Strict empirical discipline for your AI coding assistant.**
 
@@ -21,7 +21,7 @@
 
 ---
 
-## 🚀 Why Agent Rigor?
+## Why Agent Rigor?
 
 Most AI coding agents fail not because they lack intelligence, but because they lack **discipline**. When left to their own devices, they:
 - ❌ Skip planning and jump straight to implementation.
@@ -34,7 +34,7 @@ Most AI coding agents fail not because they lack intelligence, but because they 
 
 ---
 
-## 🛡️ Core Philosophy
+## Core Philosophy
 
 1. **Actionable Protocols**: Every instruction is a verifiable step with exit criteria, not an essay.
 2. **Empirical Sovereignty**: Claims require evidence. "Seems right" is never sufficient.
@@ -44,7 +44,7 @@ Most AI coding agents fail not because they lack intelligence, but because they 
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 The system is organized into a robust 3-tier hierarchy using **Progressive Disclosure** to prevent context window collapse.
 
@@ -108,7 +108,7 @@ The agent will automatically read the Phase 1 Director, create a `PLAN.md`, and 
 
 ---
 
-## 🤖 Supported Agents
+## Supported Agents
 
 Agent Rigor is pure markdown and **platform-agnostic**. It works natively with:
 
@@ -128,7 +128,7 @@ Agent Rigor is pure markdown and **platform-agnostic**. It works natively with:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions to make agents smarter and more disciplined! 
 Please see our [Contributing Guidelines](CONTRIBUTING.md) to understand how to design skills that agents actually follow.
