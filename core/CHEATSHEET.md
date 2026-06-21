@@ -138,4 +138,4 @@ Out-of-scope findings: log to progress_log.md
 
 - [SYSTEM_CORE.md](SYSTEM_CORE.md) — The full operating protocol and phase router
 - [CONTEXT_MANAGEMENT.md](CONTEXT_MANAGEMENT.md) — Skill-based modular architecture
-- [QUICKSTART.md](QUICKSTART.md) — Step-by-step setup guide
+- [QUICKSTART.md](../QUICKSTART.md) — Step-by-step setup guide

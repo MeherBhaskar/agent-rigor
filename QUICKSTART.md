@@ -11,7 +11,7 @@ Get Agent Rigor working in your project in under 2 minutes.
 git clone https://github.com/MeherBhaskar/agent-rigor.git .agents/kernel/
 
 # Option B: Copy specific files
-cp -r agent-rigor/SYSTEM_CORE.md .agents/
+cp -r agent-rigor/core/SYSTEM_CORE.md .agents/
 cp -r agent-rigor/skills/ .agents/skills/
 cp -r agent-rigor/templates/ .agents/templates/
 ```
@@ -57,7 +57,7 @@ Skills are located in `.agents/skills/`.
 ### Generic (Any Agent)
 Include in your system prompt:
 ```
-Before starting any task, read SYSTEM_CORE.md and follow the phase routing system it defines. Each phase has specific skills in the skills/ directory that you must execute.
+Before starting any task, read `.agents/SYSTEM_CORE.md` and follow the phase routing system it defines. Each phase has specific skills in the `skills/` directory that you must execute.
 ```
 
 ## Step 4: Start Your First Task
@@ -66,7 +66,7 @@ Tell your agent:
 ```
 I need to [describe your task]. Follow the kernel protocols:
 1. Start with Phase 1 (Mission Synthesis) to create a specification and plan
-2. Then execute through Phase 2, 3, and 4 as defined in SYSTEM_CORE.md
+2. Then execute through Phase 2, 3, and 4 as defined in `.agents/SYSTEM_CORE.md`
 ```
 
 The agent will:
@@ -91,7 +91,7 @@ Check for these artifacts after the first task cycle:
 
 | Problem | Solution |
 |---------|----------|
-| Agent ignores the kernel | Move SYSTEM_CORE.md content into the agent's primary rules file |
+| Agent ignores the kernel | Move `.agents/SYSTEM_CORE.md` content into the agent's primary rules file |
 | Agent skips planning phase | Add "You MUST create PLAN.md before any implementation" to rules |
 | Agent doesn't commit atomically | Add explicit git workflow to your rules file |
 | Context too long | Only reference the specific skill files needed for the current phase |
@@ -100,7 +100,7 @@ Check for these artifacts after the first task cycle:
 
 ## Next Steps
 
-- Read through `SYSTEM_CORE.md` to understand the full protocol
+- Read through `core/SYSTEM_CORE.md` to understand the full protocol
 - Browse the `skills/` directory to see all available skill protocols
 - Customize skill files for your team's specific conventions
 - Add domain-specific skills (e.g., database migrations, API design)

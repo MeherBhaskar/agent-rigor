@@ -67,11 +67,11 @@ trap 'rm -rf "$TMP_DIR"' EXIT
 git clone --quiet --depth 1 https://github.com/MeherBhaskar/agent-rigor.git "$TMP_DIR"
 
 echo -e "${INFO} Installing files..."
-cp "$TMP_DIR/SYSTEM_CORE.md" .agents/
+cp "$TMP_DIR/core/SYSTEM_CORE.md" .agents/
 cp -r "$TMP_DIR"/skills/* .agents/skills/
 cp -r "$TMP_DIR"/templates/* .agents/templates/
-cp "$TMP_DIR/CHEATSHEET.md" .agents/ 2>/dev/null || true
-cp "$TMP_DIR/CONTEXT_MANAGEMENT.md" .agents/ 2>/dev/null || true
+cp "$TMP_DIR/core/CHEATSHEET.md" .agents/ 2>/dev/null || true
+cp "$TMP_DIR/core/CONTEXT_MANAGEMENT.md" .agents/ 2>/dev/null || true
 echo -e "${CHECK} Core files installed"
 
 # --- Initialize Progress Log ---

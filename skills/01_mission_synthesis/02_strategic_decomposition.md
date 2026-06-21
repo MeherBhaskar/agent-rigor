@@ -60,7 +60,7 @@
 
 ### Phase 3: PLAN.md Generation
 
-8. **You MUST produce a PLAN.md file** at the project root (or the designated planning location) with the exact structure defined below. This file is the single source of truth for execution order and progress.
+8. **You MUST produce a PLAN.md file** at the project root (or the designated planning location) with the exact structure defined in `.agents/templates/PLAN_TEMPLATE.md`. This file is the single source of truth for execution order and progress.
 
 9. **You MUST validate the plan** before finalizing:
 
@@ -86,57 +86,7 @@
 
 ## PLAN.md Output Format
 
-Every strategic decomposition MUST produce a file with exactly this structure:
-
-```markdown
-# PLAN: <Project or Feature Title>
-
-**Source Specification:** <link or path to the specification document>
-**Generated:** <timestamp>
-**Status:** ACTIVE | COMPLETED | SUPERSEDED
-
-## Dependency Graph
-
-<!-- ASCII DAG showing task dependencies and critical path -->
-
-## Task Sequence
-
-### TASK-001: <Concise, verb-first title>
-- **Depends on:** None
-- **Status:** [PENDING]
-- **Critical Path:** Yes / No
-- **Risk:** HIGH | MEDIUM | LOW
-- **Acceptance Criteria:**
-  - GIVEN <precondition> WHEN <action> THEN <outcome>
-- **Files likely touched:**
-  - `path/to/file.ext`
-- **Notes:** <any context, warnings, or implementation hints>
-
-### TASK-002: <Concise, verb-first title>
-- **Depends on:** TASK-001
-- **Status:** [PENDING]
-- **Critical Path:** Yes / No
-- **Risk:** HIGH | MEDIUM | LOW
-- **Acceptance Criteria:**
-  - GIVEN <precondition> WHEN <action> THEN <outcome>
-- **Files likely touched:**
-  - `path/to/file.ext`
-- **Notes:** <any context, warnings, or implementation hints>
-
-<!-- Continue for all tasks -->
-
-## Status Legend
-- `[PENDING]` — Not yet started
-- `[IN PROGRESS]` — Currently being executed
-- `[DONE]` — Completed and verified against acceptance criteria
-- `[BLOCKED:<reason>]` — Cannot proceed; reason documented
-- `[REVERTED]` — Was completed but rolled back; reason documented
-
-## Revision Log
-| Date | Change | Reason |
-|---|---|---|
-| <date> | Initial plan created | — |
-```
+Every strategic decomposition MUST produce a file using the exact structure defined in `.agents/templates/PLAN_TEMPLATE.md`.
 
 ---
 

@@ -42,43 +42,7 @@
 
 ### Phase 3: Snapshot Creation
 
-10. Write a context snapshot to `.docs/context/SNAPSHOT_<YYYYMMDD_HHMMSS>.md` using this exact format:
-
-```markdown
-## Session Snapshot
-- **Created:** <ISO 8601 timestamp>
-- **Agent Session:** <session identifier if available>
-
-### Current State
-- **Active Task:** TASK-XXX — <brief description>
-- **Working Branch:** `<branch_name>`
-- **Last Passing Commit:** `<short_hash>` — <commit message summary>
-- **Test Status:** <PASSING / FAILING / UNKNOWN>
-
-### Key Decisions Made
-1. <Decision>: <Rationale> (Source: <file:line or discussion ref>)
-
-### Facts Established
-| Fact | Source | Verified At | Confidence |
-|---|---|---|---|
-| <factual claim> | <file:line> | <timestamp> | HIGH/MEDIUM/LOW |
-
-### Superseded Information
-| Original Fact | Superseded By | Date |
-|---|---|---|
-| <old claim> | <new claim with ref> | <date> |
-
-### Open Questions
-1. <Question> — Context: <why this matters, what's blocking>
-
-### Next Steps
-1. <Specific, actionable next step>
-2. <Second step>
-
-### Warnings
-- <Anything the next session should be cautious about>
-- <Known fragile areas, pending breaking changes, etc.>
-```
+10. Write a context snapshot to `.docs/context/SNAPSHOT_<YYYYMMDD_HHMMSS>.md` using the exact format defined in `.agents/templates/CONTEXT_SNAPSHOT_TEMPLATE.md`.
 
 11. Every field MUST be populated. If a section has no entries, write `None` — do NOT omit the section.
 

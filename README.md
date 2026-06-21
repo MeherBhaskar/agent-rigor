@@ -91,8 +91,8 @@ Agent Rigor is pure markdown. It works natively with standard AI tools:
 ## Documentation & Resources
 
 - [Quickstart Guide](QUICKSTART.md) — Step-by-step setup
-- [Cheatsheet](CHEATSHEET.md) — Quick reference for daily use
-- [Context Management](CONTEXT_MANAGEMENT.md) — Understanding the modular architecture
+- [Cheatsheet](core/CHEATSHEET.md) — Quick reference for daily use
+- [Context Management](core/CONTEXT_MANAGEMENT.md) — Understanding the modular architecture
 - [Contributing](CONTRIBUTING.md) — Help us build smarter agents
 
 ---
