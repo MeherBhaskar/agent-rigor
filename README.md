@@ -18,7 +18,7 @@
 
 <img src="assets/demo.svg" width="100%" alt="Agent Rigor Demo">
 
-[The Problem](#the-problem-junior-developer-syndrome) •
+[The Problem](#the-problem-undisciplined-developer-syndrome) •
 [Quickstart](#quickstart-in-2-minutes) •
 [Core Philosophy](#core-philosophy) •
 [What's Inside](#whats-inside-the-skills-library) •
@@ -28,7 +28,7 @@
 <hr>
 </div>
 
-## The Problem: "Junior Developer Syndrome"
+## The Problem: "Undisciplined Developer Syndrome"
 
 AI coding agents often struggle not from a lack of intelligence, but from a lack of **engineering discipline**. Left to their own devices, agents typically:
 - Skip planning and jump straight to implementation.
