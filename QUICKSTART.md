@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-Get Agent Rigor working in your project in under 5 minutes.
+Get Agent Rigor working in your project in under 2 minutes.
 
 ---
 
@@ -8,7 +8,7 @@ Get Agent Rigor working in your project in under 5 minutes.
 
 ```bash
 # Option A: Clone into your project
-git clone <repo-url> .agents/kernel/
+git clone https://github.com/MeherBhaskar/agent-rigor.git .agents/kernel/
 
 # Option B: Copy specific files
 cp -r agent-rigor/SYSTEM_CORE.md .agents/
@@ -25,7 +25,7 @@ Create these files in your project root:
 cp .agents/templates/PROGRESS_LOG_TEMPLATE.md progress_log.md
 
 # Create the docs directory structure
-mkdir -p .docs/{architecture,decisions,context}
+mkdir -p .docs/{architecture,decisions,context,learned_rules}
 ```
 
 ## Step 3: Configure Your Agent

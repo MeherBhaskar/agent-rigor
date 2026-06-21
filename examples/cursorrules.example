@@ -8,7 +8,7 @@ description: Core operating protocols for autonomous development
 alwaysApply: true
 ---
 
-# Agentic Kernel — Cursor Integration
+# Agent Rigor — Cursor Integration
 
 ## Primary Directive
 Read and follow `.agents/SYSTEM_CORE.md` for all development tasks. Every task must flow through the phase system.

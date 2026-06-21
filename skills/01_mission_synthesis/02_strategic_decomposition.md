@@ -188,7 +188,7 @@ Execution of this skill is proven by the existence of a **PLAN.md file** that sa
 | Skill | Relationship |
 |---|---|
 | `01_requirement_distillation` | The specification document produced by requirement distillation is the **mandatory input** to this skill. Decomposition without a completed spec is prohibited. |
-| `test_first_development` | Each task's acceptance criteria feed directly into test case generation. Tests are written before implementation for each task. |
-| `task_execution` | PLAN.md is the execution contract. The execution skill picks the next `[PENDING]` task with all dependencies in `[DONE]` status and executes it. |
-| `progress_tracking` | Task status markers (`[PENDING]`, `[IN PROGRESS]`, `[DONE]`, `[BLOCKED]`, `[REVERTED]`) are updated by the progress tracking skill after each task completes or fails. |
-| `scope_management` | If implementation reveals work not covered by any task, the Revision Log is updated and new tasks are added — but only if they fall within the specification's scope boundaries. Out-of-scope discoveries are logged and deferred. |
+| `05_incremental_proof_cycles` | Each task's acceptance criteria feed directly into test case generation. Tests are written before implementation for each task. |
+| `03_convergent_iteration` | PLAN.md is the execution contract. The execution skill picks the next `[PENDING]` task with all dependencies in `[DONE]` status and executes it. |
+| `09_context_lifecycle` | Task status markers (`[PENDING]`, `[IN PROGRESS]`, `[DONE]`, `[BLOCKED]`, `[REVERTED]`) are updated by the progress tracking skill after each task completes or fails. |
+| `18_scope_containment` | If implementation reveals work not covered by any task, the Revision Log is updated and new tasks are added — but only if they fall within the specification's scope boundaries. Out-of-scope discoveries are logged and deferred. |

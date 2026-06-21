@@ -131,3 +131,11 @@ Out-of-scope findings: log to progress_log.md
 - Context getting long
 - Before risky operations
 - After 3+ completed tasks
+
+---
+
+## See Also
+
+- [SYSTEM_CORE.md](SYSTEM_CORE.md) — The full operating protocol and phase router
+- [CONTEXT_MANAGEMENT.md](CONTEXT_MANAGEMENT.md) — Skill-based modular architecture
+- [QUICKSTART.md](QUICKSTART.md) — Step-by-step setup guide

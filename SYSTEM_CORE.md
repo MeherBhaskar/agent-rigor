@@ -27,7 +27,7 @@ Every action must be reversible. Commit before transforming. Branch before exper
 
 ## Phase Router
 
-All work flows through four mandatory phases. Skipping a phase requires explicit justification logged in `progress_log.md`.
+All work flows through four mandatory phases plus an adaptive overlay. Skipping a phase requires explicit justification logged in `progress_log.md`.
 
 ### Phase 1: Mission Synthesis → `skills/01_mission_synthesis/`
 **When:** Before writing any implementation code.
@@ -52,6 +52,11 @@ All work flows through four mandatory phases. Skipping a phase requires explicit
 ### Support Layer: Interface Protocols → `skills/05_interface_protocols/`
 **When:** Continuously, as a foundation for all other phases.
 **Purpose:** Safe, bounded interaction with the filesystem, terminal, and codebase navigation.
+
+### Phase 6: Adaptive Protocols → `skills/06_adaptive_protocols/`
+**When:** Activated during doom loops, scope creep, knowledge consolidation, and meta-orchestration.
+**Purpose:** Overlay immune system that detects failures, contains scope drift, consolidates experiential learnings, and orchestrates complex cascades across all phases.
+**Director:** `skills/06_adaptive_protocols/00_PHASE_DIRECTOR.md`
 
 ---
 
@@ -99,6 +104,7 @@ Each task cycles through this loop exactly once. The loop restarts for the next 
 | `.docs/architecture/` | Persistent architectural maps and dependency graphs | Phase 4 |
 | `.docs/decisions/` | Architecture Decision Records (ADRs) | Phase 4 |
 | `.docs/context/` | Session-resumption context snapshots | Phase 4 |
+| `.docs/learned_rules/` | Experiential rules distilled from execution history | Phase 6 |
 
 ---
 
@@ -115,7 +121,7 @@ When an unexpected failure occurs at any phase:
 
 ---
 
-## Context Management (Progressive Disclosure)
+## Context Management (Skill-Based Architecture)
 
 **CRITICAL:** Do NOT read all files in the `skills/` directory at once. This will cause context collapse and instruction neglect.
 1. You are currently reading Layer 1.

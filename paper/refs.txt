@@ -1,0 +1,376 @@
+% =============================================================================
+% RigorBench: References
+% =============================================================================
+
+% ---------------------------------------------------------------------------
+% Code Generation & Evaluation Benchmarks
+% ---------------------------------------------------------------------------
+
+@article{jimenez2024swebench,
+  title     = {{SWE}-bench: Can Language Models Resolve Real-World {GitHub} Issues?},
+  author    = {Jimenez, Carlos E. and Yang, John and Wettig, Alexander and Yao, Shunyu and Pei, Kexin and Press, Ofir and Narasimhan, Karthik},
+  journal   = {arXiv preprint arXiv:2310.06770},
+  year      = {2024}
+}
+
+@article{liu2025projecteval,
+  title     = {{ProjectEval}: A Benchmark for Programming Agents Automated Evaluation on Project-Level Code Generation},
+  author    = {Liu, Kaiyuan and Pan, Youcheng and Xiang, Yang and He, Daojing and Li, Jing and Du, Yexing and Gao, Tianrun},
+  journal   = {arXiv preprint arXiv:2503.07010},
+  year      = {2025}
+}
+
+@article{cheng2025peerbench,
+  title     = {{PeerBench}: A Proctored Community-Governed Benchmarking Framework for Agent Evaluation},
+  author    = {Cheng, Zerui and others},
+  journal   = {Advances in Neural Information Processing Systems},
+  year      = {2025}
+}
+
+@article{chen2021evaluating,
+  title     = {Evaluating Large Language Models Trained on Code},
+  author    = {Chen, Mark and Tworek, Jerry and Jun, Heewoo and Yuan, Qiming and Pinto, Henrique Ponde de Oliveira and Kaplan, Jared and Edwards, Harri and Burda, Yuri and Joseph, Nicholas and Brockman, Greg and others},
+  journal   = {arXiv preprint arXiv:2107.03374},
+  year      = {2021}
+}
+
+@article{austin2021program,
+  title     = {Program Synthesis with Large Language Models},
+  author    = {Austin, Jacob and Odena, Augustus and Nye, Maxwell and Bosma, Maarten and Michalewski, Henryk and Dohan, David and Jiang, Ellen and Cai, Carrie and Terry, Michael and Le, Quoc and Sutton, Charles},
+  journal   = {arXiv preprint arXiv:2108.07732},
+  year      = {2021}
+}
+
+@article{zhuo2024bigcodebench,
+  title     = {{BigCodeBench}: Benchmarking Code Generation with Diverse Function Calls and Complex Instructions},
+  author    = {Zhuo, Terry Yue and Vu, Minh Chien and Chim, Jenny and Hu, Han and Yu, Wenhao and Widyasari, Ratnadira and Imam, Imam Nur Bani Yusuf and Zber, Haolan and He, Jiannan and Paul, Indraneil and others},
+  journal   = {arXiv preprint arXiv:2406.15877},
+  year      = {2024}
+}
+
+@article{li2024devbench,
+  title     = {{DevBench}: A Comprehensive Benchmark for Software Development},
+  author    = {Li, Bowen and Wu, Wenhan and Tang, Ziwei and Shi, Lin and Yang, John and Li, Jinyang and Yao, Shunyu and Xiong, Chen and Narasimhan, Karthik},
+  journal   = {arXiv preprint arXiv:2403.08604},
+  year      = {2024}
+}
+
+@article{xie2024terminalbench,
+  title     = {{Terminal-Bench}: Benchmarking LLM Agents in Real Terminal Environments},
+  author    = {Xie, Zhiyuan and Zhang, Hao and Chen, Yifan and Wang, Zhenbang and Li, Jiayi and Zhang, Ge and others},
+  journal   = {arXiv preprint arXiv:2404.16012},
+  year      = {2024}
+}
+
+@article{zhang2024projdevbench,
+  title     = {{ProjDevBench}: Benchmarking LLM Agents on Full-Scale Software Project Development},
+  author    = {Zhang, Yingwei and Chen, Xin and Wang, Rui and Li, Jiayi and Liu, Zheng and others},
+  journal   = {arXiv preprint arXiv:2405.11935},
+  year      = {2024}
+}
+
+@article{liu2023agentbench,
+  title     = {{AgentBench}: Evaluating {LLMs} as Agents},
+  author    = {Liu, Xiao and Yu, Hao and Zhang, Hanchen and Xu, Yifan and Lei, Xuanyu and Lai, Hanyu and Gu, Yu and Ding, Hangliang and Men, Kaiwen and Yang, Kejuan and others},
+  journal   = {arXiv preprint arXiv:2308.03688},
+  year      = {2023}
+}
+
+@article{jain2024livecodebench,
+  title     = {{LiveCodeBench}: Holistic and Contamination Free Evaluation of Large Language Models for Code},
+  author    = {Jain, Naman and Han, King and Gu, Alex and Li, Wen-Ding and Yan, Fanjia and Zhang, Tianjun and Wang, Sida and Solar-Lezama, Armando and Sen, Koushik and Stoica, Ion},
+  journal   = {arXiv preprint arXiv:2403.07974},
+  year      = {2024}
+}
+
+% ---------------------------------------------------------------------------
+% AI Coding Agents & Tools
+% ---------------------------------------------------------------------------
+
+@misc{anthropic2024claudecode,
+  title        = {Claude Code: Agentic Coding with {Claude}},
+  author       = {{Anthropic}},
+  year         = {2024},
+  howpublished = {\url{https://docs.anthropic.com/en/docs/claude-code}},
+  note         = {Accessed: 2025-06-01}
+}
+
+@misc{cursor2024,
+  title        = {Cursor: The {AI} Code Editor},
+  author       = {{Anysphere, Inc.}},
+  year         = {2024},
+  howpublished = {\url{https://cursor.com}},
+  note         = {Accessed: 2025-06-01}
+}
+
+@misc{aider2024,
+  title        = {Aider: {AI} Pair Programming in Your Terminal},
+  author       = {Gauthier, Paul},
+  year         = {2024},
+  howpublished = {\url{https://aider.chat}},
+  note         = {Accessed: 2025-06-01}
+}
+
+@misc{github2024copilot,
+  title        = {{GitHub Copilot}: Your {AI} Pair Programmer},
+  author       = {{GitHub, Inc.}},
+  year         = {2024},
+  howpublished = {\url{https://github.com/features/copilot}},
+  note         = {Accessed: 2025-06-01}
+}
+
+@misc{google2024geminicli,
+  title        = {{Gemini CLI}: {AI} Coding Agent for the Command Line},
+  author       = {{Google DeepMind}},
+  year         = {2025},
+  howpublished = {\url{https://github.com/google-gemini/gemini-cli}},
+  note         = {Accessed: 2025-06-01}
+}
+
+@misc{openai2025codex,
+  title        = {{Codex}: An {AI} Coding Agent from {OpenAI}},
+  author       = {{OpenAI}},
+  year         = {2025},
+  howpublished = {\url{https://openai.com/index/codex/}},
+  note         = {Accessed: 2025-06-01}
+}
+
+% ---------------------------------------------------------------------------
+% Agent Rigor & Discipline Frameworks
+% ---------------------------------------------------------------------------
+
+@misc{bhaskar2025agentrigor,
+  title        = {agent-rigor: A Markdown-Based Operating System for Engineering Discipline in {AI} Coding Agents},
+  author       = {Bhaskar, Meher},
+  year         = {2026},
+  howpublished = {\url{https://github.com/MeherBhaskar/agent-rigor}},
+  note         = {Accessed: 2026-06-20}
+}
+
+@misc{linuxfoundation2024agentsmd,
+  title        = {{AGENTS.md}: Agent Configuration Standard},
+  author       = {{Linux Foundation AI \& Data}},
+  year         = {2024},
+  howpublished = {\url{https://github.com/anthropics/agent-protocol}},
+  note         = {AAIF Working Group Standard. Accessed: 2025-06-01}
+}
+
+@misc{anthropic2024claudemd,
+  title        = {{CLAUDE.md}: Project-Level Instructions for {Claude Code}},
+  author       = {{Anthropic}},
+  year         = {2024},
+  howpublished = {\url{https://docs.anthropic.com/en/docs/claude-code/memory}},
+  note         = {Accessed: 2025-06-01}
+}
+
+@misc{cursor2024rules,
+  title        = {Cursor Rules: Project-Level Agent Configuration},
+  author       = {{Anysphere, Inc.}},
+  year         = {2024},
+  howpublished = {\url{https://docs.cursor.com/context/rules-for-ai}},
+  note         = {Accessed: 2025-06-01}
+}
+
+% ---------------------------------------------------------------------------
+% Software Process & Quality
+% ---------------------------------------------------------------------------
+
+@book{cmmi2018,
+  title     = {{CMMI} for Development: Guidelines for Process Integration and Product Improvement},
+  author    = {{CMMI Institute}},
+  edition   = {3rd},
+  year      = {2018},
+  publisher = {Addison-Wesley Professional}
+}
+
+@book{humphrey1989managing,
+  title     = {Managing the Software Process},
+  author    = {Humphrey, Watts S.},
+  year      = {1989},
+  publisher = {Addison-Wesley}
+}
+
+@article{beck2001agile,
+  title     = {Manifesto for Agile Software Development},
+  author    = {Beck, Kent and Beedle, Mike and van Bennekum, Arie and Cockburn, Alistair and Cunningham, Ward and Fowler, Martin and Grenning, James and Highsmith, Jim and Hunt, Andrew and Jeffries, Ron and others},
+  year      = {2001},
+  journal   = {The Agile Alliance},
+  note      = {\url{https://agilemanifesto.org}}
+}
+
+@book{mcconnell2004codecomplete,
+  title     = {Code Complete: A Practical Handbook of Software Construction},
+  author    = {McConnell, Steve},
+  edition   = {2nd},
+  year      = {2004},
+  publisher = {Microsoft Press}
+}
+
+% ---------------------------------------------------------------------------
+% LLM Foundations & Reasoning
+% ---------------------------------------------------------------------------
+
+@article{vaswani2017attention,
+  title     = {Attention Is All You Need},
+  author    = {Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N. and Kaiser, {\L}ukasz and Polosukhin, Illia},
+  journal   = {Advances in Neural Information Processing Systems},
+  volume    = {30},
+  year      = {2017}
+}
+
+@article{wei2022chain,
+  title     = {Chain-of-Thought Prompting Elicits Reasoning in Large Language Models},
+  author    = {Wei, Jason and Wang, Xuezhi and Schuurmans, Dale and Bosma, Maarten and Ichter, Brian and Xia, Fei and Chi, Ed and Le, Quoc V. and Zhou, Denny},
+  journal   = {Advances in Neural Information Processing Systems},
+  volume    = {35},
+  year      = {2022}
+}
+
+@article{yao2023react,
+  title     = {{ReAct}: Synergizing Reasoning and Acting in Language Models},
+  author    = {Yao, Shunyu and Zhao, Jeffrey and Yu, Dian and Du, Nan and Shafran, Izhak and Narasimhan, Karthik and Cao, Yuan},
+  journal   = {International Conference on Learning Representations (ICLR)},
+  year      = {2023}
+}
+
+@article{shinn2023reflexion,
+  title     = {Reflexion: Language Agents with Verbal Reinforcement Learning},
+  author    = {Shinn, Noah and Cassano, Federico and Gopinath, Ashwin and Narasimhan, Karthik and Yao, Shunyu},
+  journal   = {Advances in Neural Information Processing Systems},
+  volume    = {36},
+  year      = {2023}
+}
+
+@article{wang2024planning,
+  title     = {A Survey on Planning with Large Language Models},
+  author    = {Wang, Zhiheng and Mao, Shaohan and Wu, Wanyu and Ge, Tao and Wei, Furu and Ji, Heng},
+  journal   = {arXiv preprint arXiv:2402.02716},
+  year      = {2024}
+}
+
+% ---------------------------------------------------------------------------
+% Benchmark Design & Evaluation Methodology
+% ---------------------------------------------------------------------------
+
+@article{yang2024sweagenttool,
+  title     = {{SWE}-agent: Agent-Computer Interfaces Enable Automated Software Engineering},
+  author    = {Yang, John and Jimenez, Carlos E. and Wettig, Alexander and Liber, Kilian and Yao, Shunyu and Narasimhan, Karthik and Press, Ofir},
+  journal   = {arXiv preprint arXiv:2405.15793},
+  year      = {2024}
+}
+
+@article{zhou2024webarena,
+  title     = {{WebArena}: A Realistic Web Environment for Building Autonomous Agents},
+  author    = {Zhou, Shuyan and Xu, Frank F. and Zhu, Hao and Zhou, Xuhui and Lo, Robert and Sridhar, Abishek and Cheng, Xianyi and Bisk, Yonatan and Fried, Daniel and Alon, Uri and others},
+  journal   = {International Conference on Learning Representations (ICLR)},
+  year      = {2024}
+}
+
+@article{kapoor2024ai,
+  title     = {{AI} Agents That Matter},
+  author    = {Kapoor, Sayash and Narayanan, Arvind and others},
+  journal   = {arXiv preprint arXiv:2407.01502},
+  year      = {2024}
+}
+
+@article{ruan2024toolbench,
+  title     = {Identifying the Risks of {LM} Agents with an {LM}-Emulated Sandbox},
+  author    = {Ruan, Yangjun and Dong, Honghua and Wang, Andrew and Pitis, Silviu and Zhou, Yongchao and Ba, Jimmy and Dubois, Yann and Maddison, Chris J. and Hashimoto, Tatsunori},
+  journal   = {International Conference on Learning Representations (ICLR)},
+  year      = {2024}
+}
+
+% ---------------------------------------------------------------------------
+% Software Testing & Verification
+% ---------------------------------------------------------------------------
+
+@book{myers2011art,
+  title     = {The Art of Software Testing},
+  author    = {Myers, Glenford J. and Sandler, Corey and Badgett, Tom},
+  edition   = {3rd},
+  year      = {2011},
+  publisher = {John Wiley \& Sons}
+}
+
+@article{chen2024codecov,
+  title     = {Teaching Large Language Models to Self-Debug},
+  author    = {Chen, Xinyun and Lin, Maxwell and Sch{\"a}rli, Nathanael and Zhou, Denny},
+  journal   = {International Conference on Learning Representations (ICLR)},
+  year      = {2024}
+}
+
+% ---------------------------------------------------------------------------
+% Doom Loops, Self-Correction & Recovery
+% ---------------------------------------------------------------------------
+
+@article{olausson2024selfrepair,
+  title     = {Is Self-Repair a Silver Bullet for Code Generation?},
+  author    = {Olausson, Theo X. and Inala, Jeevana Priya and Wang, Chenglong and Gao, Jianfeng and Solar-Lezama, Armando},
+  journal   = {International Conference on Learning Representations (ICLR)},
+  year      = {2024}
+}
+
+@article{huang2024large,
+  title     = {Large Language Models Cannot Self-Correct Reasoning Yet},
+  author    = {Huang, Jie and Chen, Xinyun and Mishra, Swaroop and Zheng, Huaixiu Steven and Yu, Adams Wei and Song, Xinying and Zhou, Denny},
+  journal   = {International Conference on Learning Representations (ICLR)},
+  year      = {2024}
+}
+
+% ---------------------------------------------------------------------------
+% Benchmark Contamination
+% ---------------------------------------------------------------------------
+
+@article{zhang2024careful,
+  title     = {A Careful Examination of Large Language Model Performance on Grade School Math},
+  author    = {Zhang, Hugh and Da, Jeff and Lee, Dean and Robinson, Vaughn and Wu, Catherine and Song, Will and Zhao, Tiffany and Raja, Pranav and Slack, Dylan and Lyu, Qin and others},
+  journal   = {arXiv preprint arXiv:2405.00332},
+  year      = {2024}
+}
+
+@article{jacovi2023stop,
+  title     = {Stop Uploading Test Data in Plain Text: Practical Strategies for Mitigating Data Contamination by Evaluation Benchmarks},
+  author    = {Jacovi, Alon and Caciularu, Avi and Mamou, Jonathan and Goldberg, Yoav},
+  journal   = {Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  year      = {2023}
+}
+
+% ---------------------------------------------------------------------------
+% Process vs. Outcome in Evaluation
+% ---------------------------------------------------------------------------
+
+@article{liang2023holistic,
+  title     = {Holistic Evaluation of Language Models},
+  author    = {Liang, Percy and Bommasani, Rishi and Lee, Tony and Tsipras, Dimitris and Soylu, Dilara and Yasunaga, Michihiro and Zhang, Yian and Narayanan, Deepak and Wu, Yuhuai and Kumar, Ananya and others},
+  journal   = {Transactions on Machine Learning Research},
+  year      = {2023}
+}
+
+@article{burnell2023rethink,
+  title     = {Rethink Reporting of Evaluation Results in {AI}},
+  author    = {Burnell, Ryan and Schellaert, Wout and Burden, John and Ullman, Tomer D. and Martinez-Plumed, Fernando and Tenenbaum, Joshua B. and Rutar, Danaja and Cheke, Lucy G. and Sohl-Dickstein, Jascha and Mitchell, Melanie and others},
+  journal   = {Science},
+  volume    = {380},
+  number    = {6641},
+  pages     = {136--138},
+  year      = {2023}
+}
+
+% ---------------------------------------------------------------------------
+% Agent Harnesses
+% ---------------------------------------------------------------------------
+
+@misc{osmani2024agentskills,
+  title  = {Agent-Skills: A Collection of Specialized Tools and Skills for Autonomous Agents},
+  author = {Osmani, Addy},
+  year   = {2024},
+  url    = {https://github.com/addyosmani/agent-skills}
+}
+
+@misc{obra2024superpowers,
+  title  = {Superpowers: An Extended Context and Prompt Management Framework},
+  author = {Obra},
+  year   = {2024},
+  url    = {https://github.com/obra/Superpowers}
+}
+

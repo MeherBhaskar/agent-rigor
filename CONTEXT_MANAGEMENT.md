@@ -1,4 +1,4 @@
-# Context Management & Progressive Disclosure
+# Context Management & Skill-Based Architecture
 
 **Objective:** Prevent "context rot" and instruction neglect by strictly controlling how much of the Agent Rigor is loaded into the agent's working memory at any given time.
 
@@ -6,9 +6,9 @@
 
 ## The Danger of Context Collapse
 
-If an agent loads all 15+ skill files into its context window simultaneously, it will suffer from **instruction neglect**. The noise ratio becomes too high, and the agent will revert to its baseline training behaviors, ignoring the strict protocols defined in this repository.
+If an agent loads all 20+ skill files into its context window simultaneously, it will suffer from **instruction neglect**. The noise ratio becomes too high, and the agent will revert to its baseline training behaviors, ignoring the strict protocols defined in this repository.
 
-To prevent this, Agent Rigor uses **Progressive Disclosure** — an architecture that reveals instructions only when they are actively needed.
+To prevent this, Agent Rigor uses **Skill-Based Architecture** — an architecture that reveals instructions only when they are actively needed by triggering specific Agent Skills.
 
 ---
 
@@ -39,11 +39,11 @@ To prevent this, Agent Rigor uses **Progressive Disclosure** — an architecture
 
 Your initial prompt or base instruction file should ONLY contain the contents of `SYSTEM_CORE.md`. Add this strict instruction to the bottom:
 
-> **PROGRESSIVE DISCLOSURE PROTOCOL:** Do NOT read the entire `skills/` directory at once. When routed to a Phase, read ONLY the `00_PHASE_DIRECTOR.md` for that phase. When the director tells you to execute a specific skill, read ONLY that specific `.md` file.
+> **SKILL-BASED LOADING PROTOCOL:** Do NOT read the entire `skills/` directory at once. When routed to a Phase, read ONLY the `00_PHASE_DIRECTOR.md` for that phase. When the director tells you to execute a specific skill, read ONLY that specific `.md` file.
 
 ### For Cursor IDE (`.mdc` files)
 
-Cursor handles progressive disclosure natively using `.mdc` file metadata. To implement Agent Rigor in Cursor:
+Cursor handles skill-based loading natively using `.mdc` file metadata. To implement Agent Rigor in Cursor:
 
 1. Create `.cursor/rules/00-apex.mdc`:
    - `alwaysApply: true`

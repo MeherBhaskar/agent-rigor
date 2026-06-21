@@ -155,7 +155,7 @@ Execution of this skill is proven by the existence of a **specification document
 | Skill | Relationship |
 |---|---|
 | `02_strategic_decomposition` | The specification document produced here is the **sole input** to strategic decomposition. Decomposition without a spec is prohibited. |
-| `test_first_development` | Acceptance criteria from this skill feed directly into test case generation. Every GIVEN/WHEN/THEN becomes a test. |
-| `codebase_archaeology` | Existing code analysis performed during divergent expansion reuses the archaeology skill's search patterns and conventions inventory. |
-| `scope_management` | Scope boundaries defined here are the authoritative reference for any scope dispute during implementation. Changes require spec amendment. |
-| `mission_validation` | The completed specification is validated against the original user request to confirm alignment before proceeding. |
+| `05_incremental_proof_cycles` | Acceptance criteria from this skill feed directly into test case generation. Every GIVEN/WHEN/THEN becomes a test. |
+| `12_semantic_navigation` | Existing code analysis performed during divergent expansion reuses the archaeology skill's search patterns and conventions inventory. |
+| `18_scope_containment` | Scope boundaries defined here are the authoritative reference for any scope dispute during implementation. Changes require spec amendment. |
+| `06_pentagonal_audit` | The completed specification is validated against the original user request to confirm alignment before proceeding. |
