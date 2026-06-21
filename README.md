@@ -14,9 +14,9 @@
 
 [The Problem](#the-problem-junior-developer-syndrome) •
 [Quickstart](#quickstart-in-2-minutes) •
+[Core Philosophy](#core-philosophy) •
 [What's Inside](#whats-inside-the-skills-library) •
-[Scientific Validation](#the-hard-data-rigorbench-validated) •
-[Core Philosophy](#core-philosophy)
+[Evaluation](#evaluation)
 
 <br>
 <hr>
@@ -73,6 +73,25 @@ Agent Rigor is pure markdown. It works natively with standard AI tools:
 
 ---
 
+## Core Philosophy
+
+1. **Actionable Protocols**: Instructions should be verifiable steps with exit criteria.
+2. **Empirical Sovereignty**: Claims require evidence; tests should pass.
+3. **Atomic State Transitions**: Code ideally moves only between known-good states.
+4. **Anti-Rationalization**: Anticipates common AI shortcuts (e.g., skipping tests).
+5. **Dynamic Modularity**: Triggers only necessary skills to save context tokens.
+
+---
+
+## Documentation & Resources
+
+- [Quickstart Guide](QUICKSTART.md) — Step-by-step setup
+- [Cheatsheet](CHEATSHEET.md) — Quick reference for daily use
+- [Context Management](CONTEXT_MANAGEMENT.md) — Understanding the modular architecture
+- [Contributing](CONTRIBUTING.md) — Help us build smarter agents
+
+---
+
 ## What's Inside: The Skills Library
 
 Agent Rigor includes a library of 18 specialized Agent Skills. The **Apex Kernel** routes the agent to the appropriate **Phase Director**, loading only the necessary skills to help manage the context window.
@@ -120,25 +139,6 @@ Agent Rigor includes a library of 18 specialized Agent Skills. The **Apex Kernel
 | **Don't Break the Build** | 0.45 | 0.44 | 0.44 | **0.64** |
 
 > **Key Finding:** A strong positive correlation ($r = 0.87$) was observed between process discipline and final outcome quality. Better processes generally lead to better code.
-
----
-
-## Core Philosophy
-
-1. **Actionable Protocols**: Instructions should be verifiable steps with exit criteria.
-2. **Empirical Sovereignty**: Claims require evidence; tests should pass.
-3. **Atomic State Transitions**: Code ideally moves only between known-good states.
-4. **Anti-Rationalization**: Anticipates common AI shortcuts (e.g., skipping tests).
-5. **Dynamic Modularity**: Triggers only necessary skills to save context tokens.
-
----
-
-## Documentation & Resources
-
-- [Quickstart Guide](QUICKSTART.md) — Step-by-step setup
-- [Cheatsheet](CHEATSHEET.md) — Quick reference for daily use
-- [Context Management](CONTEXT_MANAGEMENT.md) — Understanding the modular architecture
-- [Contributing](CONTRIBUTING.md) — Help us build smarter agents
 
 ---
 
