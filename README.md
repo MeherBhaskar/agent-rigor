@@ -1,5 +1,3 @@
-<div align="center">
-
 # Agent Rigor 
 ### **An Engineering Discipline Framework for AI Coding Assistants**
 
@@ -13,13 +11,17 @@
 
 *Help your AI agent adopt software engineering best practices directly into its workflow.*
 
-<img src="assets/demo.svg" width="100%" alt="Agent Rigor Demo">
+<img src="assets/demo.gif" width="100%" alt="Agent Rigor Demo">
+*(Above: A comparison of standard ReAct trial-and-error vs. Agent-Rigor's structured execution.)*
 
 [The Problem](#the-problem-undisciplined-developer-syndrome) •
 [Quickstart](#quickstart-in-2-minutes) •
 [Core Philosophy](#core-philosophy) •
 [What's Inside](#whats-inside-the-skills-library) •
-[Evaluation](#evaluation)
+[Evaluation](#evaluation) •
+[Compatibility Matrix](#compatibility-matrix) •
+[Live RigorScore Leaderboard](#live-rigorscore-leaderboard) •
+[Citation](#citation)
 
 <br>
 <hr>
@@ -37,26 +39,25 @@ AI coding agents often struggle not from a lack of intelligence, but from a lack
 
 **Agent Rigor** is a framework of modular Agent Skills designed to encourage mature, battle-tested software engineering practices. It provides structured instructions, verification steps, and safeguards that guide agents toward empirical discipline at every step.
 
-**Agents evaluated with agent-rigor scored 36% higher on process discipline and 30% higher on outcome correctness than baseline.**
+Consider two agents solving the same bug. Agent A formulates a hypothesis, writes a targeted fix, adds a regression test, and verifies it passes. Agent B tries five random patches in sequence until it stumbles upon one that makes the tests pass, without understanding why or adding tests. Under existing benchmarks, both get a perfect score. Yet Agent A is reliable and safe for production, while Agent B is a fragile liability. **agent-rigor** exists to force your AI to act like Agent A, and **RigorBench** exists to measure it.
 
 ---
 
-## Quickstart in 2 Minutes
+## Quick Start (under 60 seconds)
 
-Get Agent Rigor running in your project quickly.
+Clone this repo into your project's `.agents/` directory.
 
-### 1. Bootstrap Your Project
-Run this in your project root:
-```bash
-curl -sSL https://raw.githubusercontent.com/MeherBhaskar/agent-rigor/main/install.sh | bash
-```
-*(Or manually clone this repo into an `.agents/` directory).*
-
-### 2. Command Your Agent
+### Command Your Agent
 Just drop this prompt to your AI:
 > "I need to build [feature]. Read `.agents/SYSTEM_CORE.md` and begin."
 
 Your agent will now plan, execute, review, and persist its context methodically.
+
+---
+
+## Why this exists
+
+Consider two agents solving the same bug. Agent A formulates a hypothesis, writes a targeted fix, adds a regression test, and verifies it passes. Agent B tries five random patches in sequence until it stumbles upon one that makes the tests pass, without understanding why or adding tests. Under existing benchmarks, both get a perfect score. Yet Agent A is reliable and safe for production, while Agent B is a fragile liability. **agent-rigor** exists to force your AI to act like Agent A, and **RigorBench** exists to measure it.
 
 ---
 
@@ -143,7 +144,36 @@ Evaluated in RigorBench (arXiv:2606.22678) across 100 tasks and 4 harnesses.
 | **Doom Loop Gauntlet** | 0.45 | 0.45 | 0.45 | **0.55** |
 | **Don't Break the Build** | 0.45 | 0.44 | 0.44 | **0.64** |
 
-> **Key Finding:** Agent-Rigor scored 0.53 vs 0.39 baseline on the RigorBench process quality composite — a 36% relative improvement.
+> **Key Finding:** Agent-Rigor scored 0.53 vs 0.40 baseline on the RigorBench process quality composite — a 33% relative improvement. Outcome correctness improved from 64% to 83% (+30%).
+
+---
+
+## Live RigorScore Leaderboard
+
+This leaderboard tracks the process discipline of leading foundational agents and harnesses on the RigorBench suite. (Higher is better, scaled `[0, 1]`)
+
+| Rank | Agent / Harness | RigorScore | Outcome Score | Notes |
+|------|-----------------|------------|---------------|-------|
+| 1 | **agent-rigor (Gemini 3.5 Flash)** | **0.53** | **83%** | Upfront planning enforced |
+| 2 | Superpowers (Gemini 3.5 Flash) | 0.41 | 70% | High iterative iteration |
+| 3 | Agent-Skills (Gemini 3.5 Flash) | 0.39 | 72% | Excellent Clarification |
+| 4 | Baseline ReAct (Gemini 3.5 Flash) | 0.40 | 64% | Zero-shot standard |
+
+*Want to add your agent? Open a PR with your trajectory logs!*
+
+---
+
+## Compatibility Matrix
+
+`agent-rigor` acts as an intercepting harness. Here is what it works with out of the box:
+
+| Agent / Harness | Compatibility | Notes |
+|-----------------|---------------|-------|
+| **Claude Code** | ✅ Full | Natively supports custom rules and lifecycle hooks |
+| **Cursor** | ✅ Full | Enforced via `.cursorrules` and workspace sync |
+| **Gemini CLI** | ✅ Full | Natively wraps the execution loop |
+| **Aider** | 🚧 Partial | Custom architect mode required |
+
 
 ---
 

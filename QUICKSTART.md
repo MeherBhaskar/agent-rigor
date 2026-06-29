@@ -1,11 +1,18 @@
 # Quick Start Guide
 
-Get Agent Rigor working in your project in under 2 minutes.
+Get Agent Rigor working in your project in under 60 seconds.
 
 ---
 
-## Step 1: Copy the Kernel
+## Step 1: Install via pip (Recommended)
 
+```bash
+pip install agent-rigor
+# Wrap your favorite agent to enforce the 6-phase lifecycle
+agent-rigor wrap claude-code
+```
+
+*(Alternative: Manual installation)*
 ```bash
 # Option A: Clone into your project
 git clone https://github.com/MeherBhaskar/agent-rigor.git .agents/kernel/
@@ -104,3 +111,5 @@ Check for these artifacts after the first task cycle:
 - Browse the `skills/` directory to see all available skill protocols
 - Customize skill files for your team's specific conventions
 - Add domain-specific skills (e.g., database migrations, API design)
+
+---
