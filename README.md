@@ -11,7 +11,7 @@
 
 *Help your AI agent adopt software engineering best practices directly into its workflow.*
 
-<img src="assets/demo.gif" width="100%" alt="Agent Rigor Demo">
+<img src="assets/demo.svg" width="100%" alt="Agent Rigor Demo">
 *(Above: A comparison of standard ReAct trial-and-error vs. Agent-Rigor's structured execution.)*
 
 [The Problem](#the-problem-undisciplined-developer-syndrome) •
