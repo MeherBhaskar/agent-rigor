@@ -11,8 +11,8 @@
 
 *Help your AI agent adopt software engineering best practices directly into its workflow.*
 
-<img src="assets/demo.svg" width="100%" alt="Agent Rigor Demo">
-*(Above: An animated demo of the Agent Rigor operational loop.)*
+<img src="assets/demo.gif" width="100%" alt="Agent Rigor Demo">
+*(Above: A comparison of standard ReAct trial-and-error vs. Agent-Rigor's structured execution.)*
 
 [The Problem](#the-problem-undisciplined-developer-syndrome) •
 [Quickstart](#quickstart-in-2-minutes) •
@@ -45,17 +45,17 @@ Consider two agents solving the same bug. Agent A formulates a hypothesis, write
 
 ## Quick Start
 
-### Install via [skills.sh](https://skills.sh) (recommended)
+### Install via npx (recommended)
 
 ```bash
-npx skills add MeherBhaskar/agent-rigor
+npx MeherBhaskar/agent-rigor
 ```
 
-This auto-detects your agents (Claude Code, Cursor, Codex, Windsurf, etc.) and installs the framework to the right directory. No manual setup needed.
+This auto-detects your environment and installs the framework directly into your project's `.agents/` directory. No manual cloning needed.
 
 ### Command Your Agent
 Just drop this prompt to your AI:
-> "I need to build [feature]. Follow the agent-rigor framework and begin."
+> "I need to build [feature]. Read `.agents/core/SYSTEM_CORE.md` and begin."
 
 Your agent will now plan, execute, review, and persist its context methodically.
 
@@ -169,6 +169,19 @@ This leaderboard tracks the process discipline of leading foundational agents an
 
 ---
 
+## Compatibility Matrix
+
+`agent-rigor` acts as an intercepting harness. Here is what it works with out of the box:
+
+| Agent / Harness | Compatibility | Notes |
+|-----------------|---------------|-------|
+| **Claude Code** | ✅ Full | Natively supports custom rules and lifecycle hooks |
+| **Cursor** | ✅ Full | Enforced via `.cursorrules` and workspace sync |
+| **Gemini CLI** | ✅ Full | Natively wraps the execution loop |
+| **Aider** | 🚧 Partial | Custom architect mode required |
+
+
+---
 
 <div align="center">
 

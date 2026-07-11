@@ -1,0 +1,13 @@
+{
+  "name": "agent-rigor",
+  "version": "1.0.0",
+  "description": "An Engineering Discipline Framework for AI Coding Assistants",
+  "bin": {
+    "agent-rigor": "./bin/init.js"
+  },
+  "repository": "github:MeherBhaskar/agent-rigor",
+  "license": "MIT",
+  "dependencies": {
+    "degit": "^2.8.4"
+  }
+}
