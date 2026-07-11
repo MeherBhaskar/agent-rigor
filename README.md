@@ -43,13 +43,19 @@ Consider two agents solving the same bug. Agent A formulates a hypothesis, write
 
 ---
 
-## Quick Start (under 60 seconds)
+## Quick Start
 
-Clone this repo into your project's `.agents/` directory.
+### Install via npx (recommended)
+
+```bash
+npx MeherBhaskar/agent-rigor
+```
+
+This auto-detects your environment and installs the framework directly into your project's `.agents/` directory. No manual cloning needed.
 
 ### Command Your Agent
 Just drop this prompt to your AI:
-> "I need to build [feature]. Read `.agents/SYSTEM_CORE.md` and begin."
+> "I need to build [feature]. Read `.agents/core/SYSTEM_CORE.md` and begin."
 
 Your agent will now plan, execute, review, and persist its context methodically.
 
